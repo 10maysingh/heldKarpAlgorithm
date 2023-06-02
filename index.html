@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELD KARP ALGORITHM</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/1d23c18658.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <script src="script.js"></script>
+
+    <header>
+        <div class="main">
+            <nav>
+                
+                <ul>
+                    <li class="links"><a href="#" class="active">Home</a></li>
+                    <li class="links"><a href="#intro">Introduction</a></li>
+                    <li class="links"><a href="#algo">Problem Statement</a></li>
+                    <li class="links"><a href="#proj">Project Work</a></li>
+                    <li class="links"><a href="#app">Applications</a></li>
+                    <li class="links"><a href="#about">About us</a></li>
+                    
+                    
+
+                </ul>
+                
+                
+            </nav>
+        </div>
+
+        
+    </header>
+    
+    <section class="c" id="home">
+        <h1>HELD KARP ALGORITHM</h1>
+    </section>
+
+    <section class="intro" id="intro">
+        <h1>Introduction</h1>
+        <p class="info">The Held–Karp algorithm, also called Bellman–Held–Karp
+            algorithm, is a dynamic programming algorithm proposed in 1962
+            independently by Bellman and by Held and Karp to solve the traveling salesman problem (TSP), in which the input is a distance matrix
+            between a set of cities, and the goal is to find a minimum-length
+            tour that visits each city exactly once before returning to the starting point. It finds the exact solution to this problem, and to several
+            related problems including the Hamiltonian cycle problem, in exponential time.<br>
+            Dynamic programming is both a mathematical optimization method
+            and a computer programming method. The method was developed
+            by Richard Bellman in the 1950s.</p>
+    </section>
+
+    <section class="algo" id="algo">
+        <h1>Problem Statement</h1>
+        <p>A School bus starting from School needs to visit all the specified bus
+            stops, where the distance between all the stops are known and each
+            bus stop needs to be visited once. What is the shortest possible route
+            that the bus visit each stop exactly once and returns back to school?
+            </p>
+
+            <img src="bus.png" alt="bus">
+        <br>
+        <br>
+        <h2>Proposed solution</h2><br><br><br>
+        <p>The bus in this case has to visit each and every bus stop (node)
+            exactly so once this Implies the bus is following the Hamiltonian
+            path. But this problem is more complex than the Hamiltonian cycle
+            as shortest path is also to be found. Given below graph depicts the
+            five bus stops which the school bus has to travel. Bus has to start
+            from the bus stop O(school), where many possible routes are possible
+            to travel.</p>
+
+            <img src="tree.png" alt="tree">
+    </section>
+
+    <section class="proj" id="proj">
+        <h1>Project Work</h1><br><br>
+        <div class="project">
+        <div class="video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/wXw6icTj7kM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="pdf">
+          <iframe src="dm.pdf" width="660" height="660"></iframe>
+        </div><br><br><br>
+        <a href="https://github.com/HappyJoddd/Bus_Stop_Problem" target="_blank">
+        <div class="git">
+          <h3><u>Github Repository: HappyJoddd/Bus-Stop-Problem<i class="fa-solid fa-arrow-up-right-from-square"></i></u></h3><br>
+          <p>C++ Code of the algorithm used as a part of Semester Project of SC 205 course. <br>It demonstrates how concepts of discrete mathematics like Graph Theory can be used to solve the problem of minimum path taken by a bus driver of a school bus so that he can pick up every student covering every stop and return to school</p>
+
+        </div></a>
+        <br><br>
+        <div class="drive">
+          <iframe src="https://drive.google.com/embeddedfolderview?id=109D5Co7vzcTwvtaI1qZC_Qy4ZKdB3I46#list" width="800px" height="200px" ></iframe>
+        </div>
+        </div>
+    </section>
+
+    <section class="app" id="app">
+        <h1>Applications</h1>
+        <div class="container">
+            <!--image row start-->
+            <div class="row">
+              <!--image card start-->
+              <div class="image">
+                <img src="bus.webp" alt="bus">
+                <div class="details">
+                  <h2><span>SCHOOL BUS ROUTING</span></h2>
+                  <p>Scheduling a single bus run to pick up youngsters who are waiting is evidently a TSP. Many businesses focus on developing software for school bus routing, giving school districts a rapid way to improve
+                    their pickup times using this.</p>
+                  
+                </div>
+              </div>
+              <!--image card end-->
+              <!--image card start-->
+              <div class="image">
+                <img src="genome.jpg" alt="">
+                <div class="details">
+                  <h2><span>GENOME SEQUENCING</span></h2>
+                  <p>The TSP plays an important role by providing a tool for
+                    building sequences from experimental data on the proximity of individual pairs of markers.</p>
+                  
+                </div>
+              </div>
+              <!--image card end-->
+              <!--image card start-->
+              <div class="image">
+                <img src="drill.png" alt="">
+                <div class="details">
+                  <h2><span>DESIGNING PCB'S</span></h2>
+                  <p>Printed circuit boards can be found in many common electronic devices. While scan chains arise in chip design, a classic
+                    application of the TSP arises in the production of the basic boards.
+                    </p>
+                  
+                </div>
+              </div>
+              <!--image card end-->
+            </div>
+            <div class="row">
+                <!--image card start-->
+                <div class="image">
+                  <img src="laser2.jpg" alt="bus">
+                  <div class="details">
+                    <h2><span>LASERS FOR ART</span></h2>
+                    <p>The focal point of the laser beam is used to create fractures at specified three-dimensional points in the crystal, creating tiny points that
+                        are visible in the clear material. The TSP is again to route the laser
+                        through the points to minimize the production time.</p>
+                    
+                  </div>
+                </div>
+                <!--image card end-->
+                <!--image card start-->
+                <div class="image">
+                  <img src="telescope.webp" alt="">
+                  <div class="details">
+                    <h2><span>AIMING TELESCOPES</span></h2>
+                    <p>The process of rotating
+                        equipment into position for viewing is called slewing. For large-scale telescopes,
+                        slewing is a time-consuming procedure. In this setting, a TSP tour that minimizes
+                        the total slewing time for a set of observations can easily be implemented.</p>
+                    
+                  </div>
+                </div>
+                <!--image card end-->
+                <!--image card start-->
+                <div class="image">
+                  <img src="cable.jpg" alt="">
+                  <div class="details">
+                    <h2><span>COMPUTER WIRING</span></h2>
+                    <p>Modules are located on a computer board and a given subset of pins has to be connected.Hence we have the problem of finding a shortest Hamiltonian path with unspecified starting and terminating points.
+                      </p>
+                    
+                  </div>
+                </div>
+                <!--image card end-->
+              </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1>About us</h1><br><br>
+        <div class="sir">
+          <h2>ASSIGNED BY:
+          </h2><br>
+          <h4>Instructor: Prof. Manish K. Gupta</h4><br>
+          <h4>Course: SC 205</h4>
+          <br><h4>DAIICT, Gandhinagar, Gujarat</h4>
+          
+        </div>
+        <div class="group">
+          <h2>DONE BY:</h2><br>
+          <h4>Hitarth Bhatt (202201024)</h4><br>
+          <h4>Tanmay Singh (202201135)</h4><br>
+          <h4>Ram Kulkarni (202201354)</h4><br>
+          <h4>Tanay Jain (202201026)</h4><br>
+          <h4>Gireesh Reddy (202201122)</h4><br>
+          <h4>Shourya Nahar (202201296)</h4><br>
+        </div>
+    </section>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
