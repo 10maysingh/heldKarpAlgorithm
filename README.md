@@ -1,4 +1,4 @@
-HELD KARP ALGORITHM WEBSITE
+                                                      HELD KARP ALGORITHM WEBSITE
 
 Website created using HTML, CSS, JS for group project in Discrete Mathematics (Course code: SC205), guided by Prof. Manish K. Gupta.
 
